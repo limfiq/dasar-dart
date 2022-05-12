@@ -6,4 +6,6 @@ main() {
   /*beberapa baris koment ditulis seperti ini 
     dengan menambahkan /* dan */
   */
+  ///ini contoh document comment
+  ///ini lanjutanya
 }
