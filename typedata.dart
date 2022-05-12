@@ -5,7 +5,8 @@ bool isMarried = false;
 String nama2 = "Linda";
 int umur2 = 30;
 bool isMarried2 = true;
-void main(List<String> args) {
+
+ main() {
   if (isMarried == true) {
     print("Nama saya $nama");
     print("Umur saya $umur");
