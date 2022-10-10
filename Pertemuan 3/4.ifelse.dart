@@ -1,12 +1,13 @@
-import 'dart:io';
+import 'dart:io'; //this plugins to accept keyboard input
 
 void main() {
   stdout.write("Nama Saya: ");
-  var nama = stdin.readLineSync();
+  var nama = stdin.readLineSync(); //read input from keyboard
 
   stdout.write("Total Belanja Saya : ");
   var belanja = stdin.readLineSync();
-  var inputbelanja = double.parse('$belanja');
+  var inputbelanja =
+      double.parse('$belanja'); //convert input from keyboard to double
 
   if (inputbelanja >= 50000) {
     print("Anda Dapat Diskon 20%");
