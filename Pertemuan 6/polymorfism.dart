@@ -1,5 +1,5 @@
 import 'dart:math' as math;
-/*class Shape dideklarasikan sebagai abstrack 
+/*class Bentuk dideklarasikan sebagai abstrack 
 * agar tidak dapat dijadikan sebagai object kembali
 */
 
