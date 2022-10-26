@@ -1,28 +1,23 @@
 class mobil {
-  // variabel/atribut
-  String nama;
-  int roda;
-  String mesin;
-
-  //konstruktor
+  String nama = "HRV";
+  int roda = 4;
+  String mesin = "Bensin";
+  
+  //construktor
   mobil(this.nama, this.roda, this.mesin);
 
-//function/behaviour
   void berjalan() {
-    int kmh = 90;
-    print("Berjalan secepat $kmh");
-    roda = roda - 1;
+    //nama = "Avanza";
+    int kmh = 120;
+    print("Mobil $nama Berjalan Secepat $kmh");
   }
 
   void rem() {
-    print("Harus Pakem");
+    print("harus Pakem");
   }
 
   void mogok() {
-    print("Jika Kehabisan bahan bakar");
-  }
-
-  void berkendara() {
-    print("Orang Eropa Berkendara di Kiri");
+    String bahanbakar = "Bensin";
+    print("Jika $nama Kehabisan $bahanbakar ");
   }
 }

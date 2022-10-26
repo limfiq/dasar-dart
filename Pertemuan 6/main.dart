@@ -1,11 +1,13 @@
-import 'mobil1.dart';
+import 'mobil.dart';
+import 'toyota.dart';
 
 void main() {
-  //object
-  var kondisiMobil = mobil("Avanza", 4, "Bensin");
+  var kondisimobil = mobil("Avanza", 4, "Bensin");
+  print(kondisimobil);
+  kondisimobil.berjalan();
+  print(kondisimobil.nama);
 
-  kondisiMobil.berjalan();
-  kondisiMobil.mogok();
-  kondisiMobil.rem();
-  print(kondisiMobil.roda);
+  var mobiltoyota = mobil("kijang", 2, "Solar");
+  mobiltoyota.berjalan();
+  print(mobiltoyota.nama);
 }
