@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .about, .services {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .about h2, .services h2 {
+            color: #4CAF50;
+        }
+        .services .card {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Nama Perusahaan</h1>
+        <nav>
+            <a href="#about">Tentang Kami</a>
+            <a href="#services">Layanan</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Selamat Datang di Perusahaan Kami</h1>
+        <p>Menyediakan solusi terbaik untuk bisnis Anda</p>
+        <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Pelajari Lebih Lanjut</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah perusahaan yang berkomitmen untuk memberikan solusi berkualitas untuk bisnis Anda.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Layanan Kami</h2>
+        <div class="card">
+            <h3>Layanan 1</h3>
+            <p>Deskripsi singkat layanan 1.</p>
+        </div>
+        <div class="card">
+            <h3>Layanan 2</h3>
+            <p>Deskripsi singkat layanan 2.</p>
+        </div>
+        <div class="card">
+            <h3>Layanan 3</h3>
+            <p>Deskripsi singkat layanan 3.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2024 Nama Perusahaan. Semua Hak Cipta Dilindungi.</p>
+        <p>Email: kontak@perusahaan.com | Telepon: +62 123 4567 890</p>
+    </footer>
+
+</body>
+</html>
